@@ -387,13 +387,13 @@ section:nth-last-child {
   
 .banner .slider-padding {
     position: absolute;
-    top: 37%;
+    top: 42%;
     left: 42%;
     transform: translate(-50%, -50%);
 }
 
 .aurora-w {
-  width: 92%;
+  width: 95%;
   /* 简写属性，保持 2.5s 和 无限循环 */
   animation: dynamics 2.5s ease-in-out infinite; 
 }
@@ -1479,6 +1479,12 @@ figure {
     color: #595959;
   }
 
+  .banner .slider-padding {
+    top: 42%;
+    left: 42%;
+    width: 40%;
+  }
+
 }
 
 
@@ -1502,6 +1508,19 @@ figure {
   .scroll-tag {
     margin-right: 50px;
   }
+
+  .banner .slider-padding {
+    width: 42%;
+    top: 42%;
+  }
+
+}
+
+@media (max-width: 1299.98px) { 
+  .banner .slider-padding {
+    top: 41%;
+  }
+
 }
 
 @media (max-width: 1199.98px) { 
@@ -1517,6 +1536,12 @@ figure {
   .usa-p {
     width: 92%;
     margin: auto;
+  }
+
+  .banner .slider-padding { 
+    width: 40%;
+    top: 41%;
+    left: 43%;
   }
 }
 
@@ -1702,6 +1727,7 @@ figure {
   .title-img2 {
     padding: 50px 0 0;
   }
+
 }
 
 
@@ -1805,10 +1831,11 @@ figure {
     width: 130%;
   }
 
-  .banner .slider-padding {
-    left: 40%;
+  .banner .slider-padding { 
+    width: 47%;
+    top: 47%;
+    left: 41%;
   }
-
   .usa-img .usa-img-text {
     margin: 24px auto 0;
   } 
@@ -1827,9 +1854,9 @@ figure {
   }
 
   .banner .slider-padding { 
-    width: 100%;
-    top: 44%;
-    left: 49%;
+    width: 96%;
+    top: 47%;
+    left: 46%;
   }
 
   .aurora-w {
