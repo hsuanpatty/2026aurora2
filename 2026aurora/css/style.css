@@ -839,6 +839,12 @@ padding: 20px 0;
   width: 1.5%;
 }
 
+@media (max-width: 575.98px) {
+  .nordic-stay .owl-stage-outer {
+    padding: 0 0 30px;
+  }
+}
+
 /*   按紐  */
 .button-wrapper {
   display: flex;
@@ -1785,6 +1791,7 @@ figure {
 
   .nordic-box-content p {
     letter-spacing: 0;
+    padding: 20px 15px 0;
   }
 
   .finland-center {
@@ -1841,6 +1848,10 @@ figure {
   }
   .usa-img .usa-img-text {
     margin: 24px auto 0;
+  } 
+
+  .frame-box-content {
+    padding-top: 50px;
   } 
 }
 
