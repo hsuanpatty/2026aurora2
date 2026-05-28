@@ -1717,8 +1717,12 @@ figure {
     background: #6699c1;
     width: 86%;
     margin: 24px auto 0 ;
-    height: 120px;
+    height: auto;
   }   
+
+  .usa-img .usa-img-text p {
+    padding: 10px 10px 0;
+  }
 
   .usa-p .py-4 {
     padding-bottom: 0 !important;
