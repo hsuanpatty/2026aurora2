@@ -841,6 +841,10 @@ padding: 20px 0;
   width: auto;
 }
 
+.w-3 {
+  width: 1.5%;
+}
+
 /*   按紐  */
 .button-wrapper {
   display: flex;
