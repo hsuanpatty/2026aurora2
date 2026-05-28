@@ -1772,6 +1772,7 @@ figure {
   .nordic-box-content h5,
   .frame-box-content h5{
     text-align: center;
+    padding-left: 0;
   } 
 
   .button-wrapper {
@@ -1789,6 +1790,7 @@ figure {
   .finland-center {
     width: 90%;
     padding: 20px 0  10px;
+    margin: auto;
   }
 
   .img img {
@@ -1805,8 +1807,7 @@ figure {
   }
 
   .title-img2 {
-    width: 100%;
-    padding-top: 50px;
+    width: 95%;
   }
 
   .nordic-box-content h3,
